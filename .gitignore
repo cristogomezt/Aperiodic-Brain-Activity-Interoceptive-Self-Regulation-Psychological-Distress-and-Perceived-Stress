@@ -1,0 +1,15 @@
+# Respaldo local con datos originales sin anonimizar: NUNCA subir
+_respaldo_NO_SUBIR/
+
+# Archivos de sistema y de sesión
+.DS_Store
+.Rhistory
+.RData
+.Rproj.user/
+__pycache__/
+*.pyc
+
+# Salidas generadas por los scripts (se reproducen al ejecutarlos)
+Results_Aperiodic_2026/
+Analisis/Tablas/
+Analisis/MonteCarlo/

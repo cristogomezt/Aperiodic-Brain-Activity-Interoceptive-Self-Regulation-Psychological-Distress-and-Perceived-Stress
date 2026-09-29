@@ -1,0 +1,6 @@
+mne==1.12.1
+fooof==1.1.1
+neurodsp==2.3.0
+numpy==2.2.6
+pandas==2.3.3
+scipy==1.15.3
