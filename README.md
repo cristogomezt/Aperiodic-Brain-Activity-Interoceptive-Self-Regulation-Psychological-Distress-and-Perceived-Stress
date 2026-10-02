@@ -23,6 +23,7 @@ Data/
       CN_02/
         Subject_IDxxx/
           eeg/
+            .set/
 ```
 
 ## Reproducing the analyses
