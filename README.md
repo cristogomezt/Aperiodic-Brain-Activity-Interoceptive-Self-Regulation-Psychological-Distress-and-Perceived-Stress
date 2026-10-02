@@ -15,6 +15,8 @@ Analisis/
   Mediation_model.R                Mediation model (lavaan, 5000 BCa bootstrap), results tables, correlations, and descriptives
   power_MonteCarlo.R           A priori Monte Carlo power analysis (simulated data only; does not use the real data)
 ```
+## EEG recording structure (recordings not included)
+
 ```
 Data/
   Behavioral_data.csv          Behavioral scores (...)
@@ -69,4 +71,4 @@ Run everything from the repository root.
 
 - 94 EEG recordings and 103 participants with behavioral data; the 92 participants with both form the analytic sample.
 - Data are pseudonymized: the `Subject_IDxxx` identifiers cannot be used to identify participants. Recording dates and times, original file paths, and processing timestamps were removed from the `.set` files. The EEG signal itself was not modified.
-- The EEG recordings were organized under Data/Prepro_data/Chile/CN_02/, with one Subject_IDxxx/eeg/ folder per participant. These recordings are not included in this repository because of their sensitive nature. The folder layout is shown for documentation purposes only.
+- EEG recordings were organized under Data/Prepro_data/Chile/CN_02/, with one Subject_IDxxx/eeg/ folder per participant. The recordings are not included in this repository because of their sensitive nature. GitHub does not retain empty folders, so the layout above is shown for documentation only.
