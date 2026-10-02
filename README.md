@@ -59,3 +59,4 @@ Run everything from the repository root.
 
 - 94 EEG recordings and 103 participants with behavioral data; the 92 participants with both form the analytic sample.
 - Data are pseudonymized: the `Subject_IDxxx` identifiers cannot be used to identify participants. Recording dates and times, original file paths, and processing timestamps were removed from the `.set` files. The EEG signal itself was not modified.
+- The Data/ directory is intended to contain EEG recordings. Because these recordings are sensitive, the raw EEG data are not included in this repository.
