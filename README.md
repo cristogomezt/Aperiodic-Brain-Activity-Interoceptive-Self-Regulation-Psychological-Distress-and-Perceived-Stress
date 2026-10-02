@@ -12,7 +12,7 @@ fooof/
   processing.py                PSD (Welch) + FOOOF per channel -> global exponent per subject -> merge with behavioral data
 Analisis/
   df.csv                       Analysis dataset (output of processing.py)
-  Fixed_model.R                Mediation model (lavaan, 5000 BCa bootstrap), results tables, correlations, and descriptives
+  Mediation_model.R                Mediation model (lavaan, 5000 BCa bootstrap), results tables, correlations, and descriptives
   power_MonteCarlo.R           A priori Monte Carlo power analysis (simulated data only; does not use the real data)
 ```
 ```
@@ -42,7 +42,7 @@ Run everything from the repository root.
 2. Mediation model (R, working directory = repository root):
 
    ```r
-   source("Analisis/Fixed_model.R")
+   source("Analisis/Mediation_model.R")
    ```
 
    Required packages: `lavaan`, `tidyverse`, `flextable`, `officer`, `pagedown` (needs Chrome/Chromium for PDF export), `Hmisc`, `corrplot`, `psych`. Tables are saved to `Analisis/Tablas/`.
